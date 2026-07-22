@@ -252,7 +252,6 @@ flowchart LR
 
 - [拾光适老影音授权行动](./MEDIA_ACCESS_ACTION.md)
 - [隐私说明](./PRIVACY.md)
-- [项目支持](./SUPPORT.md)
 - [隐私选择与数据删除](./PRIVACY_CHOICES.md)
 
 ## 当前范围

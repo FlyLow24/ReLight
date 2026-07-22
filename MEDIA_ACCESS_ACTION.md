@@ -1,6 +1,6 @@
 # 拾光适老影音授权行动
 
-[返回项目首页](./README.md) · [查看意向片单](./MEDIA_INTEREST_CATALOG.md) · [隐私说明](./PRIVACY.md) · [项目支持](./SUPPORT.md)
+[返回项目首页](./README.md) · [查看意向片单](./MEDIA_INTEREST_CATALOG.md) · [隐私说明](./PRIVACY.md)
 
 > 我们正在寻找愿意一起推动经典影音获得适老家庭授权的人。
 
