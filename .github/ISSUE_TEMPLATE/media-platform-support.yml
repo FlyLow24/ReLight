@@ -1,0 +1,82 @@
+name: 平台或内容方支持适老影音授权
+description: 由可能持有、管理或有权许可适老影音内容的平台和机构表达合作意向。
+title: "[平台或内容方合作意向] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你代表或协助可能持有适老影音内容的平台、机构或权利方关注这项行动。本表单用于公开表达初步合作意向，不构成正式授权协议。需要非公开沟通时，请发送邮件至 xma.origin@gmail.com，主题写明“拾光适老影音授权行动”。
+
+  - type: dropdown
+    id: organization_type
+    attributes:
+      label: 机构或内容方类型
+      options:
+        - 视频平台
+        - 电视台、广播电视机构或官方媒体
+        - 电影资料、文化档案或公共文化机构
+        - 制片、发行或内容运营机构
+        - 著作权集体管理、版权代理或行业组织
+        - 作品权利人或获得正式授权的代理方
+        - 其他可能提供合法内容授权的机构
+    validations:
+      required: true
+
+  - type: input
+    id: organization_name
+    attributes:
+      label: 机构或项目名称
+      description: 请填写可以公开显示的名称；不方便公开时请改用项目邮箱联系。
+      placeholder: 例如：平台、频道、资料馆、制片发行机构或版权项目名称
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: support_type
+    attributes:
+      label: 可能提供的支持
+      options:
+        - label: 讨论 2000 年以前经典内容的统一范围授权
+        - label: 帮助确认机构依法拥有并可对外许可的内容范围
+        - label: 提供授权目录、内容接口或安全交付方式
+        - label: 共同设计加密分发、离线播放和授权撤回机制
+        - label: 将行动请求转交给机构内部的版权、内容合作或公益部门
+        - label: 提供版权管理、合同或公益合作方面的专业建议
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: content_scope
+    attributes:
+      label: 可能涉及的内容类型
+      options:
+        - label: 老电影与动画
+        - label: 老电视剧
+        - label: 戏曲
+        - label: 相声小品
+        - label: 老歌曲与演出录像
+        - label: 访谈、回顾节目和时代资料
+        - label: 海报、剧照、字幕和节目介绍等展示素材
+    validations:
+      required: true
+
+  - type: textarea
+    id: public_message
+    attributes:
+      label: 可以公开的合作意向或建议
+      description: 请勿填写合同、私人联系方式或其他不适合公开的信息。
+      placeholder: 例如：愿意帮助项目与相关部门建立联系，进一步了解统一范围授权和安全播放方案。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我理解提交本表单不构成正式授权，最终范围以书面协议为准。
+          required: true
+        - label: 我不会冒充机构或权利方作出未经授权的承诺。
+          required: true
+        - label: 我没有公开私人联系方式、合同内容或其他非公开信息。
+          required: true
