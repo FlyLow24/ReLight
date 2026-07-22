@@ -242,11 +242,11 @@ flowchart LR
 
 时光影音只使用完成策展所需的观看偏好和回避项，并尽量以泛化搜索词查询公共来源；完整家庭画像不会直接拼入公开搜索。CloudKit 同步的是已确认的影音索引与展示元数据，不是外部平台的视频文件。
 
-详细说明：
+项目文档：
 
-- [隐私政策](https://flylow24.github.io/ReLight/privacy.html)
-- [技术支持](https://flylow24.github.io/ReLight/support.html)
-- [隐私选择与数据删除](https://flylow24.github.io/ReLight/privacy-choices.html)
+- [隐私说明](./PRIVACY.md)
+- [项目支持](./SUPPORT.md)
+- [隐私选择与数据删除](./PRIVACY_CHOICES.md)
 
 ## 当前范围
 
