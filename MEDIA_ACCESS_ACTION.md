@@ -20,12 +20,6 @@
 
 需要讨论具体版权范围、内容目录或非公开联络信息时，请直接发送邮件至 [xma.origin@gmail.com](mailto:xma.origin@gmail.com)。公开表单只用于表达初步意向，不构成正式授权。
 
-### 我想补充一项片单意向
-
-告诉我们老人可能熟悉的一部电影、一部电视剧、一出戏、一段相声或一首歌。片单只用于表达家庭需要，不会逐片追踪版权，也不代表作品已经获得授权。
-
-**[补充一项片单意向](https://github.com/FlyLow24/ReLight/issues/new?template=media-interest.yml)** · [先查看现有片单](./MEDIA_INTEREST_CATALOG.md)
-
 ### 我可以帮助联络平台
 
 这是当前最需要的帮助。你可以寻找平台公开的版权、内容合作、公益、社会责任或商务渠道；帮助转交项目资料；或者提供平台沟通与版权合作经验。
@@ -33,6 +27,12 @@
 **[认领平台联络协助](https://github.com/FlyLow24/ReLight/issues/new?template=media-platform-liaison.yml)**
 
 不方便公开说明的联络线索，可以发送至 [xma.origin@gmail.com](mailto:xma.origin@gmail.com)，邮件主题写明“拾光适老影音授权行动”。请不要在公开页面发布平台工作人员的私人联系方式。
+
+### 我想补充一项片单意向
+
+告诉我们老人可能熟悉的一部电影、一部电视剧、一出戏、一段相声或一首歌。片单只用于表达家庭需要，不会逐片追踪版权，也不代表作品已经获得授权。
+
+**[补充一项片单意向](https://github.com/FlyLow24/ReLight/issues/new?template=media-interest.yml)** · [先查看现有片单](./MEDIA_INTEREST_CATALOG.md)
 
 ## 我们目前最需要什么
 
