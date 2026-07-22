@@ -1,0 +1,64 @@
+name: 补充适老影音片单意向
+description: 提交一项老人可能熟悉或希望重新看到的经典影音内容。
+title: "[片单意向] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这里只收集作品意向，不接收视频文件、网盘地址、下载链接或未经授权的媒体副本。片单是需求参考，不逐片跟踪版权状态。
+
+  - type: input
+    id: title
+    attributes:
+      label: 作品或节目名称
+      placeholder: 例如：庐山恋
+    validations:
+      required: true
+
+  - type: input
+    id: approximate_year
+    attributes:
+      label: 大致年代
+      description: 行动范围为 2000 年以前首次公开的作品，不包括 2000 年；不知道准确年份可以填写“不确定”。
+      placeholder: 例如：1980 年，或 1980 年代
+    validations:
+      required: true
+
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: 内容类型
+      options:
+        - 电影或动画
+        - 电视剧
+        - 戏曲
+        - 相声小品
+        - 歌曲或演出录像
+        - 访谈、回顾节目或时代资料
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: people
+    attributes:
+      label: 相关演员或表演者
+      description: 不确定可以留空。
+      placeholder: 例如：演员、歌手、剧种或表演团体
+
+  - type: textarea
+    id: familiarity_reason
+    attributes:
+      label: 为什么希望把它加入意向片单？
+      description: 可以说明它可能带来的熟悉感，不要填写老人姓名、诊断或其他可识别信息。
+      placeholder: 例如：这类电影是许多同年代老人年轻时共同看过的内容。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有提交视频文件、下载地址、网盘链接或破解方法。
+          required: true
+        - label: 我理解片单只表达意向，不代表作品已经获得授权。
+          required: true

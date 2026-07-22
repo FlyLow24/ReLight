@@ -1,0 +1,52 @@
+name: 帮助联络目标平台
+description: 认领联络协助，或提供目标平台的正式公开合作渠道。
+title: "[平台联络协助] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这是当前行动最需要的帮助。公开表单中请只提供平台已经公开的合作渠道，不要发布工作人员的私人手机号、私人邮箱或其他个人信息。非公开线索请另行发送至 xma.origin@gmail.com，并在邮件主题中写明“拾光适老影音授权行动”。
+
+  - type: dropdown
+    id: target_platform
+    attributes:
+      label: 你希望帮助联络哪个平台？
+      options:
+        - 哔哩哔哩
+        - 1905 电影网
+        - 央视网
+        - 可以协助多个平台
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: help_type
+    attributes:
+      label: 你可以提供什么帮助？
+      options:
+        - label: 帮助寻找平台公开的版权、内容合作、公益或商务渠道
+        - label: 帮助把统一授权请求转交给平台相关部门
+        - label: 帮助完善对平台的项目介绍和沟通材料
+        - label: 提供版权、公益合作或平台沟通经验
+        - label: 协助后续会议、记录或推进工作
+    validations:
+      required: true
+
+  - type: textarea
+    id: public_channel
+    attributes:
+      label: 已知的正式公开渠道或协助方式
+      description: 可以填写公开部门名称、公开合作页面或你准备如何协助。私人联络信息请改用项目邮箱。
+      placeholder: 例如：平台公开的内容合作页面、公益合作部门，或可以帮助转交项目资料。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有公开平台工作人员的私人联系方式或其他个人信息。
+          required: true
+        - label: 我不会以平台或拾光项目名义作出未经确认的承诺。
+          required: true

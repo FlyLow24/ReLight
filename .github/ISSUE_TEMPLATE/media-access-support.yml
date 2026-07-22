@@ -1,0 +1,65 @@
+name: 支持适老影音授权行动
+description: 告诉我们你支持哪些平台和内容方向，帮助形成可以向平台展示的真实需求。
+title: "[支持授权行动] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你支持“拾光适老影音授权行动”。填写时不需要提供老人姓名、诊断、联系方式或其他隐私信息。
+
+  - type: dropdown
+    id: participant_role
+    attributes:
+      label: 你以什么身份关注这项行动？
+      options:
+        - 认知障碍老人家属或照护者
+        - 关注认知障碍与适老服务的人
+        - 公益或社会服务参与者
+        - 影视、版权或媒体行业参与者
+        - 技术或产品参与者
+        - 其他
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: target_platforms
+    attributes:
+      label: 你希望支持哪些平台授权行动？
+      options:
+        - label: 哔哩哔哩
+        - label: 1905 电影网
+        - label: 央视网
+        - label: 三个平台都支持
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: content_interests
+    attributes:
+      label: 你最关心哪些内容？
+      options:
+        - label: 老电影与动画
+        - label: 老电视剧
+        - label: 戏曲
+        - label: 相声小品
+        - label: 老歌曲与演出录像
+        - label: 访谈、回顾节目和时代资料
+    validations:
+      required: true
+
+  - type: textarea
+    id: support_reason
+    attributes:
+      label: 你为什么支持这项行动？
+      description: 可以简短说明这些内容对老人家庭的意义，请不要写入任何可识别的家庭隐私或健康信息。
+      placeholder: 例如：家中长辈仍然熟悉年轻时看过的戏曲，希望有更简单、稳定的家庭播放方式。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有在本表单中提供老人姓名、诊断或其他家庭隐私。
+          required: true
+        - label: 我理解这只是表达支持，不代表任何平台已经授权。
+          required: true
