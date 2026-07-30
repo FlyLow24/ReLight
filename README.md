@@ -289,4 +289,8 @@ flowchart LR
 
 请勿在 Issues、Discussions 或其他公开区域上传真实家庭照片、录音、身份信息、精确位置或健康资料。
 
+## 延伸阅读
+
+- [Medium：@xma.origin](https://medium.com/@xma.origin)
+
 联系邮箱：xma.origin@gmail.com
