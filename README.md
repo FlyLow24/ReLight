@@ -6,6 +6,19 @@
 
 <p align="center">面向阿尔茨海默病患者家庭的记忆整理与日常陪伴系统。</p>
 
+## English Executive Summary
+
+<details>
+<summary>Read the English summary</summary>
+
+ReLight is a public-interest memory organization and daily companionship system designed for families supporting a person living with Alzheimer's disease. It helps caregivers turn family photographs, life-history cues, authorized familiar voices, and carefully prepared cultural materials into calm, familiar content without framing recall as a test or making medical claims.
+
+The product consists of two independent but coordinated Apple apps. ReLight Caregiver (拾光家属) runs on iPhone and is used to organize clues, review AI-generated candidates, manage voice consent, and publish approved content. ReLight Companion (拾光相伴) runs on iPad and presents only caregiver-approved albums and audiovisual programs through a low-complexity interface. Approved content is synchronized through the family's iCloud and CloudKit environment.
+
+Privacy boundaries are architectural, not merely policy statements. On-device Vision and Core ML models perform photo-quality, similarity, and face-grouping analysis locally. Cloud LLM, VLM, image-generation, and speech services are invoked only for user-requested tasks with minimized inputs and structured constraints. Model outputs remain proposals: they do not establish identity, family relationships, diagnosis, or treatment outcomes. Caregivers review content before publication, familiar-voice use requires explicit authorization and supports revocation, and ReLight does not sell family data, display third-party advertising, or use personal content for cross-app tracking.
+
+</details>
+
 ## 关于拾光
 
 阿尔茨海默病会逐渐影响患者理解当下环境、辨认人物关系和连接近期经历的能力。家人最了解患者仍然熟悉的人、地方、声音和往事，但这些珍贵线索常常散落在旧照片、生活经验和家庭成员的记忆里，难以持续整理和呈现。
@@ -15,6 +28,14 @@
 拾光同时使用端侧视觉模型与云端大模型。端侧模型先在设备上完成照片特征、质量和相似关系计算；云端大语言模型（LLM）、视觉语言模型（VLM）、图像生成模型和语音模型再按任务参与语义理解、内容策展、适老稿件、配图与播报制作。系统不是直接朗读天气数据、报纸原文或小说原文，而是把可靠素材转化为短句、慢节奏、解释清楚、画面稳定的适老稿件与音画内容。
 
 拾光不是医疗产品，不提供诊断、治疗或病程判断，也不替代医生、专业照护人员和家庭成员的判断。
+
+## 人文与生物伦理视角（STS & Bioethical Perspective）
+
+阿尔茨海默病可能改变一个人连接近期经历、理解人物关系和维持个人叙事连续性的方式，但疾病诊断不等于个人身份、偏好和自主性随之消失。从科学技术与社会（STS）的视角看，家庭照片、人物称呼、合成声音和算法策展都不只是技术素材；它们也参与塑造一个人如何被理解、被描述和被陪伴。
+
+拾光把自己定位为一种非侵入式、低刺激的设计尝试，而不是替使用者重建一套所谓“正确记忆”。系统不根据年龄、地区或疾病阶段自动定义个人偏好，也不把模型识别结果直接写成家庭事实。AI 负责提出整理和内容候选，照护者负责核对身份、关系、授权和回避边界，使用者仍可以通过选择、停留、跳过、暂停或拒绝表达意愿。
+
+维护尊严还意味着承认技术权力的边界：熟悉声音必须由声音提供者明确授权并可以撤回；照片和生命线索可以被更正或移除；一次观看或收听反应不能被解释为医疗效果。拾光希望保留使用者参与自身生活叙事的机会，让技术降低整理与陪伴负担，而不是以效率之名替代个人意愿。
 
 ## 公益属性
 
